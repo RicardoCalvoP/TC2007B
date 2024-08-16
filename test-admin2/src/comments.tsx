@@ -23,7 +23,7 @@ export const CommentEdit = () => (
             <TextInput source="id" inputProps={{ disabled: true }} />
             <ReferenceInput source="postId" reference="posts" />
             <TextInput source="name" />
-            <EmailField source="email" />
+            <TextInput source="email" />
             <TextInput source="body" />
         </SimpleForm>
     </Edit>
